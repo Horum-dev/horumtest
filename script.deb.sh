@@ -140,7 +140,7 @@ main ()
   echo "done."
 
 
-  gpg_key_url="https://packages.gitlab.com/gitlab/gitlab-ee/gpgkey"
+  gpg_key_url="https://github.com/Horum-dev/horumtest/blob/master/gpg.key"
   apt_config_url="https://packages.gitlab.com/install/repositories/gitlab/gitlab-ee/config_file.list?os=${os}&dist=${dist}&source=script"
 
   apt_source_path="/etc/apt/sources.list.d/gitlab_gitlab-ee.list"
